@@ -6,8 +6,10 @@
 # TIPS
 ## 使用时记得在SVM上设置输出格式为BGR8
 
+![本地路径](..\\20200327_1.png "相对路径演示,上一级目录")
+
 ## 如果编译有libusb报错
-  Error loading xxx : undefined symbol: libusb_set_option
+  ` Error loading xxx : undefined symbol: libusb_set_option      `
 
 ### 原因：
 
@@ -25,4 +27,4 @@
 
 甚至可以链接回原本位置，在 ~/.bashrc 增加一行
 
-  export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+  ` export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH     `
