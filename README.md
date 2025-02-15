@@ -6,7 +6,7 @@
 # TIPS
 ## 使用时记得在SVM上设置输出格式为BGR8
 
-![本地路径](..\\20200327_1.png "相对路径演示,上一级目录")
+![相机设置.png](.//相机设置.png "相机设置(像素格式)")
 
 ## 如果编译有libusb报错
   ` Error loading xxx : undefined symbol: libusb_set_option      `
